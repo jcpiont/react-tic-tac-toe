@@ -1,14 +1,11 @@
 {
-  "main.css": "/react-tic-tac-toe/static/css/main.35cbe9e9.chunk.css",
-  "main.js": "/react-tic-tac-toe/static/js/main.68f99e5f.chunk.js",
-  "main.js.map": "/react-tic-tac-toe/static/js/main.68f99e5f.chunk.js.map",
-  "static/js/1.fa92c112.chunk.js": "/react-tic-tac-toe/static/js/1.fa92c112.chunk.js",
-  "static/js/1.fa92c112.chunk.js.map": "/react-tic-tac-toe/static/js/1.fa92c112.chunk.js.map",
+  "main.js": "/react-tic-tac-toe/static/js/main.fca026bb.chunk.js",
+  "main.js.map": "/react-tic-tac-toe/static/js/main.fca026bb.chunk.js.map",
+  "static/js/1.f03e8ae8.chunk.js": "/react-tic-tac-toe/static/js/1.f03e8ae8.chunk.js",
+  "static/js/1.f03e8ae8.chunk.js.map": "/react-tic-tac-toe/static/js/1.f03e8ae8.chunk.js.map",
   "runtime~main.js": "/react-tic-tac-toe/static/js/runtime~main.87d698cc.js",
   "runtime~main.js.map": "/react-tic-tac-toe/static/js/runtime~main.87d698cc.js.map",
-  "static/media/logo.svg": "/react-tic-tac-toe/static/media/logo.5d5d9eef.svg",
-  "static/css/main.35cbe9e9.chunk.css.map": "/react-tic-tac-toe/static/css/main.35cbe9e9.chunk.css.map",
   "index.html": "/react-tic-tac-toe/index.html",
-  "precache-manifest.e780236dec13a252eca87c9adc860e46.js": "/react-tic-tac-toe/precache-manifest.e780236dec13a252eca87c9adc860e46.js",
+  "precache-manifest.872d6fca2278080af236f0931b255c57.js": "/react-tic-tac-toe/precache-manifest.872d6fca2278080af236f0931b255c57.js",
   "service-worker.js": "/react-tic-tac-toe/service-worker.js"
 }
