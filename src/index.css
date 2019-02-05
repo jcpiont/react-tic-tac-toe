@@ -18,6 +18,11 @@ ul {
   margin-bottom: 10px;
 }
 
+.activeButton {
+  font-weight: bold;
+  color: blue;
+}
+
 .square {
   background: #fff;
   border: 1px solid #999;
