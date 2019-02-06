@@ -15,7 +15,8 @@ class Game extends React.Component {
         }
       ],
       stepNumber: 0,
-      xIsNext: true
+      xIsNext: true,
+      sortDescending: false
     };
   }
   handleClick(i) {
@@ -36,6 +37,10 @@ class Game extends React.Component {
 
   jumpTo(step) {
     this.setState({ stepNumber: step, xIsNext: step % 2 === 0 });
+  }
+
+  handleSortClick() {
+    this.setState({ sortDescending: !this.state.sortDescending });
   }
 
   render() {
@@ -76,8 +81,9 @@ class Game extends React.Component {
         </div>
         <div className="game-info">
           <div>{status}</div>
-          <ol>{moves}</ol>
+          <ol>{this.state.sortDescending ? moves.reverse() : moves}</ol>
         </div>
+        <button onClick={() => this.handleSortClick()}>Sort Moves</button>
       </div>
     );
   }
@@ -94,11 +100,10 @@ class Board extends React.Component {
   }
 
   createSquares() {
-    var i, j;
     let rows = [];
-    for (i = 0; i < 3; i++) {
+    for (let i = 0; i < 3; i++) {
       let squares = [];
-      for (j = 0; j < 3; j++) {
+      for (let j = 0; j < 3; j++) {
         squares.push(this.renderSquare(i * 3 + j));
       }
       rows.push(<div className="board-row">{squares}</div>);
