@@ -38,6 +38,10 @@ ul {
   width: 34px;
 }
 
+.winner {
+  background: rgba(0, 143, 24, 0.589);
+}
+
 .square:focus {
   outline: none;
 }
